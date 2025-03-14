@@ -11,5 +11,6 @@ namespace Kerites
         public int Side { get; set; }
         public int Length { get; set; }
         public string Colour { get; set; }
+        public int Hazszam { get; set; }
     }
 }

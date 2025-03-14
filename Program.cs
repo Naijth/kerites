@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             Console.WriteLine("1. Feladat");
-            Utca telkek = new Utca("kerites.txt", "utcakep.txt");
+            Utca telkek = new Utca("kerites.txt");
             Console.WriteLine("Fájl beolvasva!");
             Console.WriteLine();
 
@@ -31,6 +31,17 @@
             Console.WriteLine();
 
             Console.WriteLine("5. Feladat");
+            Console.Write("Adjon meg egy házszámot! ");
+            int input = int.Parse(Console.ReadLine());
+            string allapot = Utca.keritesAllapot(telkek, input);
+            Console.WriteLine("A kerítés színe / állapota: " + allapot);
+            string ajanlotSzin = Utca.ajanlotSzin();
+            Console.WriteLine("Egy lehetséges festési szín: " + ajanlotSzin);
+            Console.WriteLine();
+
+            Console.WriteLine("6. Feladat");
+            Utca.utcakep(telkek);
+            Console.WriteLine("Páratlan oldali utcaképét megtalálhatja az 'utcakep.txt' fájlban.");
         }
     }
 }

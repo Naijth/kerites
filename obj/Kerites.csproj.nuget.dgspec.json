@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\szema\\OneDrive\\Asztali gép\\HitGub\\kerites\\Kerites.csproj": {}
+    "C:\\Users\\szema\\OneDrive\\Asztali gép\\HitGub\\Kerites\\Kerites.csproj": {}
   },
   "projects": {
-    "C:\\Users\\szema\\OneDrive\\Asztali gép\\HitGub\\kerites\\Kerites.csproj": {
+    "C:\\Users\\szema\\OneDrive\\Asztali gép\\HitGub\\Kerites\\Kerites.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\szema\\OneDrive\\Asztali gép\\HitGub\\kerites\\Kerites.csproj",
+        "projectUniqueName": "C:\\Users\\szema\\OneDrive\\Asztali gép\\HitGub\\Kerites\\Kerites.csproj",
         "projectName": "Kerites",
-        "projectPath": "C:\\Users\\szema\\OneDrive\\Asztali gép\\HitGub\\kerites\\Kerites.csproj",
+        "projectPath": "C:\\Users\\szema\\OneDrive\\Asztali gép\\HitGub\\Kerites\\Kerites.csproj",
         "packagesPath": "C:\\Users\\szema\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\szema\\OneDrive\\Asztali gép\\HitGub\\kerites\\obj\\",
         "projectStyle": "PackageReference",
